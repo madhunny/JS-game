@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
-
 * {
   box-sizing: border-box;
 }
@@ -7,6 +6,7 @@
 body {
   color: #fff;
   font-family: 'Khula', sans-serif;
+  font-style: italic;
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -14,7 +14,8 @@ body {
 }
 
 a {
-  color: #fff;
+  color: rgb(211, 119, 240);
+  font-style: italic;
   text-decoration: none;
 }
 
@@ -61,7 +62,8 @@ h1 {
 .time-btn {
   background-color: transparent;
   border: 2px solid #C0C0C0;
-  color: #fff;
+  border-radius: 20px;
+  color: rgb(211, 119, 240);
   cursor: pointer;
   font-family: inherit;
   padding: .5rem 1rem;
@@ -89,7 +91,7 @@ h1 {
   width: 500px;
   height: 500px;
   background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
-  box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+  box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #16D9E3;
   border-radius: 30px;
   overflow: hidden;
 }
